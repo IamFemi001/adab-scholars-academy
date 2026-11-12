@@ -1,0 +1,185 @@
+ :root{--green:#0b5838;--deep:#073d2a;--leaf:#16834e;--gold:#d7a94c;--cream:#f7f6f0;--ink:#17231d;--muted:#66736b;--line:#dfe5dd;--white:#fff;--serif:Georgia,"Times New Roman",serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.7;background:#fff}img{display:block;max-width:100%}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 48px));margin:auto}.topline{background:var(--deep);color:#e4eee7;font-size:11px;letter-spacing:.04em}.topline-inner{min-height:36px;display:flex;align-items:center;justify-content:space-between}.topline a{color:#f0d79f}.site-header{height:82px;background:#fff;position:sticky;top:0;z-index:20;border-bottom:1px solid #edf0eb}.nav-wrap{height:100%;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:11px;color:var(--green)}.brand img{width:54px;height:54px;object-fit:contain;border-radius:50%}.brand span{display:flex;flex-direction:column;line-height:1.12}.brand strong{font:800 23px Manrope,sans-serif;letter-spacing:.04em}.brand small{font-size:9px;letter-spacing:.15em;font-weight:700}.main-nav{display:flex;align-items:center;gap:31px;font-size:13px;font-weight:600;color:#3d4b43}.main-nav a:not(.nav-cta):hover{color:var(--leaf)}.nav-cta{background:var(--green);color:#fff;padding:12px 20px;border-radius:3px}.menu-toggle{display:none;background:none;border:0;font-size:27px;color:var(--green)}
+.hero{min-height:660px;position:relative;display:flex;align-items:center;background:var(--deep);color:#fff;overflow:hidden}.hero-image{position:absolute;inset:0;background:url("assets/campus-wide.jpg") center 48%/cover no-repeat;opacity:.36;transform:scale(1.02)}.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,37,25,.96) 0%,rgba(3,48,31,.84) 48%,rgba(3,45,30,.32) 100%)}.hero-content{position:relative;padding:90px 0 100px;max-width:1160px}.eyebrow,.section-label{font-size:10px;letter-spacing:.17em;font-weight:700;text-transform:uppercase}.eyebrow{color:#e5d3a9;display:flex;align-items:center;gap:10px}.eyebrow span,.quote-credit span{width:28px;height:1px;background:var(--gold);display:inline-block}.hero h1{font:800 clamp(48px,7vw,82px)/1.07 Manrope,sans-serif;letter-spacing:-.055em;margin:27px 0 20px;max-width:750px}.hero h1 em,.section-heading h2 em,.intro h2 em,.pathway-copy h2 em,.admissions h2 em,.contact h2 em{font-family:var(--serif);font-weight:400;color:var(--gold);letter-spacing:-.04em}.hero-content>p{max-width:570px;color:#d6e0d9;font-size:16px;line-height:1.9}.hero-actions{display:flex;align-items:center;gap:28px;margin-top:32px}.button{display:inline-flex;align-items:center;justify-content:center;gap:28px;padding:15px 20px;font-size:12px;font-weight:700;transition:.2s;border-radius:2px}.button span{font-size:17px}.button-gold{background:var(--gold);color:#17251c}.button-gold:hover{background:#e8c574;transform:translateY(-2px)}.button-green{background:var(--green);color:#fff}.button-green:hover{background:var(--deep);transform:translateY(-2px)}.text-link{font-size:12px;font-weight:700}.light-link{color:#fff}.hero-note{display:flex;align-items:center;gap:14px;margin-top:65px;color:#d4dfd7;font-size:11px;line-height:1.6}.hero-note b{color:#fff;font-size:12px}.note-mark{color:var(--gold);font-size:27px}.hero-index{position:absolute;right:max(24px,calc((100vw - 1160px)/2));bottom:36px;font-size:10px;letter-spacing:.15em;color:#d4dfd7}.hero-index span{color:var(--gold);padding:0 8px}
+.section-pad{padding:112px 0}.intro-grid{display:grid;grid-template-columns:180px 1fr 390px;gap:42px;align-items:start}.section-label{color:var(--green);padding-top:9px}.section-label span{color:#b38b3c;margin-right:9px}.kicker{font-size:11px;color:var(--leaf);font-weight:700;letter-spacing:.1em;text-transform:uppercase}.intro h2,.section-heading h2,.pathway-copy h2,.admissions h2,.contact h2{font:800 clamp(36px,4vw,51px)/1.16 Manrope,sans-serif;letter-spacing:-.05em;margin:12px 0 23px}.intro h2 em,.section-heading h2 em,.pathway-copy h2 em,.contact h2 em{color:var(--green)}.lead{font-size:18px;font-weight:600;line-height:1.55}.intro-copy>p:not(.kicker):not(.lead){font-size:14px;color:var(--muted);line-height:1.9}.underlined-link{display:inline-flex;gap:22px;align-items:center;margin-top:18px;padding-bottom:8px;border-bottom:1px solid var(--gold);font-size:12px;font-weight:700;color:var(--green)}.intro-visual{position:relative;padding:18px 0 0 18px}.intro-visual:before{content:"";position:absolute;left:0;top:0;width:70%;height:70%;border:1px solid #d7c18f}.intro-visual img{position:relative;width:100%;height:390px;object-fit:cover}.visual-caption{position:relative;background:var(--green);color:white;padding:15px 18px;display:flex;justify-content:space-between;font-size:9px;letter-spacing:.1em}.visual-caption b{font-size:10px;letter-spacing:0}
+.pillars{background:var(--cream)}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:60px;margin-bottom:45px}.section-heading>p{max-width:390px;color:var(--muted);font-size:13px;line-height:1.9;margin:0 0 9px}.section-heading h2{margin-bottom:0}.pillar-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.pillar-card{background:#fff;padding:27px 24px 25px;min-height:285px;position:relative;border:1px solid #e9ece6;transition:.25s}.pillar-card:hover{transform:translateY(-5px);box-shadow:0 15px 35px #183c2410}.pillar-card.featured{background:var(--green);color:#fff}.card-number{font-size:9px;letter-spacing:.13em;font-weight:700;color:#a17c35}.featured .card-number{color:#e6c87e}.pillar-icon{font-size:31px;color:var(--green);margin:26px 0 13px}.featured .pillar-icon{color:#e6c87e}.pillar-card h3{font:700 18px Manrope,sans-serif;margin:0 0 11px}.pillar-card p{font-size:12px;color:var(--muted);line-height:1.85;margin:0}.pillar-card.featured p{color:#d7e5dc}.card-rule{position:absolute;bottom:0;left:24px;width:35px;height:3px;background:var(--gold)}
+.quote-band{background:#f0eadb;padding:70px 0}.quote-inner{max-width:800px;text-align:center}.quote-symbol{font:90px/ .7 Georgia;color:#c5a15b}.quote-inner blockquote{font:italic 27px/1.5 var(--serif);color:var(--deep);margin:15px auto 20px}.quote-credit{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#68736a;display:flex;justify-content:center;align-items:center;gap:10px}
+.pathway-grid{display:grid;grid-template-columns:1fr 1fr;gap:85px;align-items:center}.pathway-image{position:relative}.pathway-image img{height:430px;width:100%;object-fit:cover}.image-tag{position:absolute;bottom:0;left:0;background:var(--gold);padding:13px 17px;font-size:9px;font-weight:700;letter-spacing:.12em}.pathway-copy p{color:var(--muted);font-size:13px;line-height:1.9}.pathway-copy .button{margin-top:17px}
+.admissions{background:#fff;padding-top:30px}.admissions-panel{background:var(--deep);color:#fff;display:grid;grid-template-columns:1.35fr .65fr;min-height:390px;overflow:hidden}.admissions-text{padding:60px 70px}.light-label{color:#dce9df}.admissions h2{font-size:47px;margin:20px 0}.admissions h2 em{color:#e4c47c}.admissions-text>p{max-width:570px;color:#d3e0d7;font-size:13px;line-height:1.9;margin-bottom:27px}.admissions-aside{background:linear-gradient(145deg,#126343,#08412c);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:35px;text-align:center;position:relative}.admissions-aside:before,.admissions-aside:after{content:"";position:absolute;width:230px;height:230px;border:1px solid #ffffff1c;border-radius:50%}.admissions-aside:after{width:175px;height:175px}.aside-emblem{font:800 42px Manrope;color:#e5c67e;z-index:1}.aside-emblem span{font-size:17px;margin-left:6px}.admissions-aside p{font:italic 20px/1.5 var(--serif);max-width:220px;z-index:1}.admissions-aside small{font-size:8px;letter-spacing:.16em;color:#d6e2d8;z-index:1}
+.gallery{background:var(--cream)}.gallery-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:16px}.gallery-grid figure{margin:0;background:#fff}.gallery-grid img{width:100%;height:230px;object-fit:cover}.gallery-grid .gallery-large img{height:300px}.gallery-grid figcaption{padding:13px 15px;font-size:11px;font-weight:700;display:flex;justify-content:space-between}.gallery-grid figcaption span{color:#a17c35;font-size:10px}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:100px}.contact-intro{max-width:440px;color:var(--muted);font-size:14px;line-height:1.9}.contact-actions{display:flex;gap:12px;margin-top:28px}.button-outline{border:1px solid #cbd5cd;color:var(--green)}.button-outline:hover{border-color:var(--green)}.contact-details{border-top:1px solid var(--line)}.detail-row{display:flex;gap:20px;padding:23px 0;border-bottom:1px solid var(--line)}.detail-icon{width:35px;height:35px;border:1px solid #d9e2da;border-radius:50%;display:grid;place-items:center;color:var(--green);font-size:17px;flex-shrink:0}.detail-row div{display:flex;flex-direction:column}.detail-row small{font-size:9px;letter-spacing:.15em;color:#8b968e;font-weight:700;margin-bottom:6px}.detail-row b{font-size:13px;line-height:1.7}.detail-row a{font-size:11px;color:var(--green);font-weight:700;margin-top:5px}
+.footer{background:#062f21;color:#d9e5dd}.footer-main{min-height:125px;display:flex;align-items:center;justify-content:space-between}.footer-brand{color:#fff}.footer-brand img{background:#fff}.footer-main>p{font:italic 17px var(--serif);color:#d9c38e}.back-top{font-size:9px;letter-spacing:.14em}.footer-bottom{border-top:1px solid #ffffff20;min-height:54px;display:flex;align-items:center;justify-content:space-between;font-size:10px;color:#a9beb0}.floating-whatsapp{position:fixed;right:22px;bottom:22px;width:52px;height:52px;border-radius:50%;background:#16834e;color:#fff;display:grid;place-items:center;font-size:24px;z-index:15;box-shadow:0 7px 22px #0003}
+@media(max-width:950px){.main-nav{gap:17px}.intro-grid{grid-template-columns:120px 1fr 300px;gap:25px}.pillar-grid{grid-template-columns:repeat(2,1fr)}.pathway-grid{gap:45px}.contact-grid{gap:55px}}
+@media(max-width:700px){.wrap{width:min(100% - 36px,560px)}.topline-inner{font-size:9px;gap:10px}.topline-inner span{max-width:48%}.site-header{height:72px}.brand img{width:46px;height:46px}.brand strong{font-size:20px}.menu-toggle{display:block}.main-nav{display:none;position:absolute;top:72px;left:0;right:0;background:#fff;padding:18px 22px 24px;box-shadow:0 15px 25px #00000012;flex-direction:column;align-items:stretch;gap:0}.main-nav.open{display:flex}.main-nav a{padding:12px 5px;border-bottom:1px solid #edf0eb}.main-nav .nav-cta{text-align:center;margin-top:10px}.hero{min-height:650px}.hero-content{padding:78px 0 90px}.hero h1{font-size:51px}.hero-content>p{font-size:14px}.hero-actions{align-items:flex-start;flex-direction:column;gap:20px}.hero-note{margin-top:45px}.hero-index{font-size:8px}.section-pad{padding:78px 0}.intro-grid{grid-template-columns:1fr;gap:18px}.section-label{font-size:9px}.intro-copy{max-width:560px}.intro h2,.section-heading h2,.pathway-copy h2,.contact h2{font-size:39px}.intro-visual{max-width:440px;margin:18px auto 0}.intro-visual img{height:300px}.section-heading{display:block;margin-bottom:30px}.section-heading>p{margin-top:20px}.pillar-grid{grid-template-columns:1fr 1fr;gap:10px}.pillar-card{padding:21px 17px;min-height:300px}.pillar-card h3{font-size:16px}.pillar-card p{font-size:11px}.card-number{font-size:8px}.pathway-grid{grid-template-columns:1fr;gap:38px}.pathway-image img{height:300px}.admissions{padding-top:0}.admissions-panel{grid-template-columns:1fr}.admissions-text{padding:45px 27px}.admissions h2{font-size:39px}.admissions-aside{min-height:240px}.gallery-grid{grid-template-columns:1fr 1fr;gap:10px}.gallery-grid .gallery-large{grid-column:1/-1}.gallery-grid img,.gallery-grid .gallery-large img{height:210px}.gallery-grid .gallery-large img{height:260px}.contact-grid{grid-template-columns:1fr;gap:45px}.contact-actions{flex-wrap:wrap}.footer-main{padding:28px 0;gap:20px;flex-wrap:wrap}.footer-main>p{order:3;width:100%;margin:0}.footer-bottom{font-size:9px;gap:10px}.floating-whatsapp{right:14px;bottom:14px;width:48px;height:48px}}
+@media(max-width:390px){.topline-inner{font-size:8px}.hero h1{font-size:44px}.pillar-grid{grid-template-columns:1fr}.pillar-card{min-height:240px}.gallery-grid{grid-template-columns:1fr}.gallery-grid .gallery-large{grid-column:auto}.gallery-grid img,.gallery-grid .gallery-large img{height:230px}.button{gap:15px}}
+
+/* Accessibility pass: substantially larger, easier-to-read typography */
+body{font-size:18px;line-height:1.75}
+.topline{font-size:13px}
+.topline-inner{min-height:42px}
+.brand strong{font-size:26px}
+.brand small{font-size:12px}
+.main-nav{font-size:16px;gap:27px}
+.nav-cta{padding:14px 22px}
+.eyebrow,.section-label{font-size:13px}
+.hero h1{font-size:clamp(54px,7vw,88px)}
+.hero-content>p{font-size:20px;line-height:1.75;max-width:650px}
+.button{font-size:16px;padding:17px 23px}
+.button span{font-size:20px}
+.text-link{font-size:16px}
+.hero-note{font-size:15px}
+.hero-note b{font-size:16px}
+.hero-index{font-size:13px}
+.kicker{font-size:14px}
+.lead{font-size:21px}
+.intro-copy>p:not(.kicker):not(.lead){font-size:18px}
+.underlined-link{font-size:16px}
+.section-heading>p{font-size:17px}
+.pillar-card{padding:30px 26px;min-height:310px}
+.card-number{font-size:13px}
+.pillar-card h3{font-size:22px}
+.pillar-card p{font-size:16px;line-height:1.75}
+.quote-inner blockquote{font-size:32px}
+.quote-credit{font-size:13px}
+.pathway-copy p{font-size:18px}
+.image-tag{font-size:13px}
+.admissions h2{font-size:clamp(44px,4vw,54px)}
+.admissions-text>p{font-size:18px}
+.admissions-aside p{font-size:23px}
+.admissions-aside small{font-size:12px}
+.gallery-grid figcaption{font-size:15px}
+.gallery-grid figcaption span{font-size:13px}
+.contact-intro{font-size:18px}
+.detail-row small{font-size:13px}
+.detail-row b{font-size:17px}
+.detail-row a{font-size:15px}
+.footer-main>p{font-size:20px}
+.back-top{font-size:13px}
+.footer-bottom{font-size:13px}
+.floating-whatsapp{width:60px;height:60px;font-size:28px}
+@media(max-width:700px){
+  body{font-size:17px;line-height:1.75}
+  .wrap{width:calc(100% - 32px)}
+  .topline{font-size:12px}
+  .topline-inner{min-height:42px}
+  .brand strong{font-size:21px}
+  .brand small{font-size:11px}
+  .main-nav{font-size:17px}
+  .hero h1{font-size:clamp(48px,12vw,62px);line-height:1.1}
+  .hero-content>p{font-size:18px;line-height:1.75}
+  .eyebrow,.section-label{font-size:12px}
+  .hero-note{font-size:14px}
+  .hero-note b{font-size:15px}
+  .hero-index{font-size:11px}
+  .intro h2,.section-heading h2,.pathway-copy h2,.contact h2{font-size:clamp(36px,9vw,46px);line-height:1.16}
+  .kicker{font-size:13px}
+  .lead{font-size:19px}
+  .intro-copy>p:not(.kicker):not(.lead){font-size:17px}
+  .underlined-link{font-size:16px}
+  .section-heading>p{font-size:17px}
+  .pillar-grid{grid-template-columns:1fr 1fr;gap:12px}
+  .pillar-card{padding:23px 18px;min-height:280px}
+  .pillar-card h3{font-size:19px;line-height:1.35}
+  .pillar-card p{font-size:15px;line-height:1.7}
+  .card-number{font-size:11px}
+  .quote-inner blockquote{font-size:26px}
+  .quote-credit{font-size:11px;line-height:1.6}
+  .pathway-copy p{font-size:17px}
+  .image-tag{font-size:11px}
+  .admissions h2{font-size:clamp(36px,9vw,44px)}
+  .admissions-text>p{font-size:17px}
+  .admissions-aside p{font-size:21px}
+  .admissions-aside small{font-size:11px}
+  .gallery-grid figcaption{font-size:14px}
+  .gallery-grid figcaption span{font-size:12px}
+  .contact-intro{font-size:17px}
+  .detail-row small{font-size:12px}
+  .detail-row b{font-size:16px}
+  .detail-row a{font-size:15px}
+  .button{font-size:16px;padding:16px 20px}
+  .text-link{font-size:16px}
+  .footer-main>p{font-size:18px}
+  .back-top,.footer-bottom{font-size:11px}
+}
+@media(max-width:390px){
+  .pillar-grid{grid-template-columns:1fr}
+  .pillar-card{min-height:0;padding:24px 20px}
+  .pillar-card h3{font-size:20px}
+  .pillar-card p{font-size:16px}
+  .hero h1{font-size:46px}
+}
+
+
+/* ACCESSIBILITY REVISION: substantially larger, easier-to-read typography */
+body { font-size: 18px; line-height: 1.8; }
+.topline { font-size: 14px; }
+.brand strong { font-size: 27px; }
+.brand small { font-size: 12px; }
+.main-nav { font-size: 16px; }
+.eyebrow, .section-label { font-size: 13px; }
+.hero-content > p { font-size: 20px; line-height: 1.85; max-width: 650px; }
+.hero-note { font-size: 15px; }
+.hero-note b { font-size: 16px; }
+.text-link, .button { font-size: 16px; }
+.kicker { font-size: 14px; }
+.lead { font-size: 22px; }
+.intro-copy > p:not(.kicker):not(.lead) { font-size: 18px; }
+.underlined-link { font-size: 16px; }
+.visual-caption { font-size: 12px; }
+.visual-caption b { font-size: 13px; }
+.section-heading > p { font-size: 17px; }
+.card-number { font-size: 12px; }
+.pillar-card h3 { font-size: 21px; }
+.pillar-card p { font-size: 16px; line-height: 1.8; }
+.quote-inner blockquote { font-size: 32px; }
+.quote-credit { font-size: 12px; }
+.pathway-copy p { font-size: 17px; }
+.image-tag { font-size: 12px; }
+.admissions-text > p { font-size: 17px; }
+.admissions-aside small { font-size: 11px; }
+.gallery-grid figcaption { font-size: 14px; }
+.contact-intro { font-size: 18px; }
+.detail-row small { font-size: 12px; }
+.detail-row b { font-size: 17px; }
+.detail-row a { font-size: 15px; }
+.back-top, .footer-bottom { font-size: 13px; }
+
+@media (max-width: 700px) {
+  body { font-size: 17px; }
+  .topline { font-size: 11px; }
+  .brand strong { font-size: 23px; }
+  .brand small { font-size: 10px; }
+  .main-nav { font-size: 17px; }
+  .hero h1 { font-size: clamp(48px, 12vw, 60px); }
+  .hero-content > p { font-size: 18px; }
+  .eyebrow, .section-label { font-size: 12px; }
+  .hero-note { font-size: 14px; }
+  .hero-note b { font-size: 15px; }
+  .text-link, .button { font-size: 15px; }
+  .intro h2, .section-heading h2, .pathway-copy h2,
+  .contact h2 { font-size: clamp(37px, 9vw, 46px); }
+  .kicker { font-size: 13px; }
+  .lead { font-size: 20px; }
+  .intro-copy > p:not(.kicker):not(.lead) { font-size: 17px; }
+  .underlined-link { font-size: 15px; }
+  .section-heading > p { font-size: 16px; }
+  .pillar-card h3 { font-size: 19px; }
+  .pillar-card p { font-size: 15px; }
+  .card-number { font-size: 10px; }
+  .quote-inner blockquote { font-size: 26px; }
+  .quote-credit { font-size: 10px; }
+  .pathway-copy p, .admissions-text > p { font-size: 16px; }
+  .image-tag { font-size: 10px; }
+  .admissions h2 { font-size: 40px; }
+  .gallery-grid figcaption { font-size: 13px; }
+  .contact-intro { font-size: 17px; }
+  .detail-row small { font-size: 11px; }
+  .detail-row b { font-size: 16px; }
+  .detail-row a { font-size: 14px; }
+  .footer-bottom { font-size: 11px; }
+}
+@media (max-width: 390px) {
+  .pillar-card h3 { font-size: 18px; }
+  .pillar-card p { font-size: 15px; }
+  .topline { font-size: 10px; }
+}
